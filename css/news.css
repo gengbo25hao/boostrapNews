@@ -1,0 +1,70 @@
+/*让图片自适应*/
+img{
+	display: block;
+	width: 100%;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+/*新闻左边*/
+.news-status{
+	color: #999;
+}
+
+.news-status .label{
+	opacity: .8;
+}
+
+.news-content{
+	margin-top: 20px;
+	font-size: 15px;
+	line-height: 1.5;
+}
+
+.news-content img{
+	margin: 10px 0;
+}
+
+.news-title{
+	margin-top: 0;
+}
+
+/*右边内容*/
+.recommend{
+	background-color: rgba(0,0,0,.05);
+}
+
+.recommend .recommend-title{
+	font-weight: bold;
+	font-size: 15px;
+	margin: 6px 15px; 
+}
+
+.recommend-body{
+	margin: 10px 0;
+}
+
+.recommend-body:hover{
+	background-color: #e6e6e6;
+}
+
+.recommend-body .recommend-content{
+	display: block;
+	cursor: pointer;
+	color: #000;
+}
+
+.recommend-body .recommend-hint{
+	margin-top: 20px;
+	color: #999999;
+}
+
+/*页脚*/
+.footer{
+	margin-top: 20px;
+	padding: 2px 0;
+	text-align: center;
+	color: #999;
+}

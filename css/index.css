@@ -1,0 +1,155 @@
+/*整体样式*/
+img{
+	display: block;
+	max-width: 100%;
+}
+
+.side-bar .list-group-item,
+img,
+.report,
+.hot-text{
+	border-radius: 2px;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+
+/*导航*/
+.navbar-brand{
+	background-image: url(../image/logo.png);
+	background-repeat: no-repeat;
+	width: 70px;
+	background-size: 95%;
+	background-position: center center;
+}
+
+.toggle_label{
+	display: inline-block;
+	position: absolute;
+	right: 10px;
+	top: 15px;
+	font-size: 16px;
+	font-weight: normal;
+	color: #666;
+	display: none;
+}
+
+.toggle_label:hover{
+	color: #333;
+}
+/*#toggle-checkbox:checked 是当复选框打钩的时候*/
+/*#toggle-checkbox:checked ~ div  是复选框下面的div*/
+#toggle-checkbox:checked ~ .toggle-nav{
+	display: block !important;
+}
+
+/*左边内容*/
+.side-bar .list-group-item{
+	border: 0;
+	cursor: pointer;
+	margin-bottom: 5px;
+}
+
+.side-bar .list-group-item.active{
+	background-color: #ea0c3c;
+}
+
+/*中间内容*/
+.news-list-item {
+	padding: 10px 0;
+	border-bottom: 1px solid #e0e0e0;;
+}
+
+.news-list-item:first-child{
+	padding-top: 0;
+}
+
+
+.news-list-item .title{
+	display: block;
+	font-size: 18px;
+	color: #080808;
+	margin-bottom: 14px;
+	line-height: 1.5;
+	font-weight: bold;
+}
+
+.news-list-item .title:hover{
+	color: #337ab7;
+}
+
+.info{
+	height: 120px;
+	overflow: hidden;
+	margin-bottom: 14px;
+}
+
+.info .info-content{
+	color: #999;
+}
+
+.info .info-content:hover{
+	color: #337ab7;
+}
+
+.info-hint{
+	color: #888;
+}
+
+.avatar{
+	display: inline-block;
+}
+
+.avatar .avatar-img{
+	display: inline-block;
+	width: 25px;
+	margin-right: 5px;
+}
+
+/*右边内容*/
+.report,
+.hot-text{
+	background-color: rgba(0,0,0,.05);
+	margin-top: 10px;
+	padding: 10px 0;
+}
+
+.report .report-info .report-title{
+	font-size: 150%;
+	font-weight: bold;
+}
+
+.hot-text .hot-text-title{
+	font-size: 18px;
+	padding: 0 15px;
+	font-weight: bold;
+}
+
+.hot-text  .hot-text-list{
+	padding: 12px 15px;
+	color: #999999;
+}
+
+.hot-text  .hot-text-list .hot-text-body{
+	display: block;
+	margin-bottom: 4px;
+	color: #999;
+}
+
+.hot-text  .hot-text-list .desc{
+	color: #888;
+}
+
+.hot-text  .hot-text-list:hover{
+	background: rgba(0,0,0,.05);
+}
+
+/*页脚*/
+.footer{
+	margin-top: 20px;
+	padding: 2px 0;
+	text-align: center;
+	color: #999;
+}
